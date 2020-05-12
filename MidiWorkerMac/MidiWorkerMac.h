@@ -17,3 +17,7 @@ FOUNDATION_EXPORT const unsigned char MidiWorkerMacVersionString[];
 // In this header, you should import all the public headers of your framework using statements like #import <MidiWorkerMac/PublicHeader.h>
 
 
+#import <MidiWorkerMac/MidiDataHelper.h>
+#import <MidiWorkerMac/MidiNote.h>
+#import <MidiWorkerMac/MidiTrace.h>
+#import <MidiWorkerMac/MidiWorker.h>

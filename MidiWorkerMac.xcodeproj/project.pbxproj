@@ -10,6 +10,14 @@
 		2F091D8B246A8E230089A450 /* MidiWorkerMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F091D81246A8E230089A450 /* MidiWorkerMac.framework */; };
 		2F091D90246A8E230089A450 /* MidiWorkerMacTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F091D8F246A8E230089A450 /* MidiWorkerMacTests.m */; };
 		2F091D92246A8E230089A450 /* MidiWorkerMac.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F091D84246A8E230089A450 /* MidiWorkerMac.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F091DA3246A8E4C0089A450 /* MidiDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F091D9B246A8E450089A450 /* MidiDataHelper.m */; };
+		2F091DA4246A8E4C0089A450 /* MidiWorker.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F091D9C246A8E460089A450 /* MidiWorker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F091DA5246A8E4C0089A450 /* MidiDataHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F091D9D246A8E470089A450 /* MidiDataHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F091DA6246A8E4C0089A450 /* MidiNote.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F091D9E246A8E480089A450 /* MidiNote.m */; };
+		2F091DA7246A8E4C0089A450 /* MidiTrace.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F091D9F246A8E490089A450 /* MidiTrace.m */; };
+		2F091DA8246A8E4C0089A450 /* MidiTrace.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F091DA0246A8E4A0089A450 /* MidiTrace.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F091DA9246A8E4C0089A450 /* MidiWorker.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F091DA1246A8E4B0089A450 /* MidiWorker.m */; };
+		2F091DAA246A8E4C0089A450 /* MidiNote.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F091DA2246A8E4C0089A450 /* MidiNote.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +37,14 @@
 		2F091D8A246A8E230089A450 /* MidiWorkerMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MidiWorkerMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F091D8F246A8E230089A450 /* MidiWorkerMacTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MidiWorkerMacTests.m; sourceTree = "<group>"; };
 		2F091D91246A8E230089A450 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F091D9B246A8E450089A450 /* MidiDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MidiDataHelper.m; sourceTree = "<group>"; };
+		2F091D9C246A8E460089A450 /* MidiWorker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MidiWorker.h; sourceTree = "<group>"; };
+		2F091D9D246A8E470089A450 /* MidiDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MidiDataHelper.h; sourceTree = "<group>"; };
+		2F091D9E246A8E480089A450 /* MidiNote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MidiNote.m; sourceTree = "<group>"; };
+		2F091D9F246A8E490089A450 /* MidiTrace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MidiTrace.m; sourceTree = "<group>"; };
+		2F091DA0246A8E4A0089A450 /* MidiTrace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MidiTrace.h; sourceTree = "<group>"; };
+		2F091DA1246A8E4B0089A450 /* MidiWorker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MidiWorker.m; sourceTree = "<group>"; };
+		2F091DA2246A8E4C0089A450 /* MidiNote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MidiNote.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +87,14 @@
 		2F091D83246A8E230089A450 /* MidiWorkerMac */ = {
 			isa = PBXGroup;
 			children = (
+				2F091D9D246A8E470089A450 /* MidiDataHelper.h */,
+				2F091D9B246A8E450089A450 /* MidiDataHelper.m */,
+				2F091DA2246A8E4C0089A450 /* MidiNote.h */,
+				2F091D9E246A8E480089A450 /* MidiNote.m */,
+				2F091DA0246A8E4A0089A450 /* MidiTrace.h */,
+				2F091D9F246A8E490089A450 /* MidiTrace.m */,
+				2F091D9C246A8E460089A450 /* MidiWorker.h */,
+				2F091DA1246A8E4B0089A450 /* MidiWorker.m */,
 				2F091D84246A8E230089A450 /* MidiWorkerMac.h */,
 				2F091D85246A8E230089A450 /* Info.plist */,
 			);
@@ -94,6 +118,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F091D92246A8E230089A450 /* MidiWorkerMac.h in Headers */,
+				2F091DA4246A8E4C0089A450 /* MidiWorker.h in Headers */,
+				2F091DAA246A8E4C0089A450 /* MidiNote.h in Headers */,
+				2F091DA8246A8E4C0089A450 /* MidiTrace.h in Headers */,
+				2F091DA5246A8E4C0089A450 /* MidiDataHelper.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +222,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F091DA9246A8E4C0089A450 /* MidiWorker.m in Sources */,
+				2F091DA7246A8E4C0089A450 /* MidiTrace.m in Sources */,
+				2F091DA6246A8E4C0089A450 /* MidiNote.m in Sources */,
+				2F091DA3246A8E4C0089A450 /* MidiDataHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
